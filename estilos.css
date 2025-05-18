@@ -1,0 +1,543 @@
+/* Estilos para el banner de fondo */
+.banner {
+    background-image: url('imagenes/banner-aventura.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px; /* Altura que puedes ajustar */
+}
+
+.bannerc {
+    background-image: url('imagenes/banner-calendario.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px; /* Altura que puedes ajustar */
+}
+
+.bannerh {
+  background-image: url('https://img.freepik.com/fotos-premium/grupo-excursionistas-disfrutando-vista-cima-montana-mirando-vista-impresionante_661495-57075.jpg?w=1480');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px; /* Altura */
+}
+
+.bannerf {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/fotos-premium/vista-frontal-joven-mujer-bonita-asiatica-su-novia-sentadas-frente-tienda-usan-telefono-movil-tomar-foto-campamento-bosque-felicidad-juntos_1150-61778.jpg?w=1480');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px; /* Altura */
+}
+
+/* --- BANNERS DE CABECERAS  --- */
+.imagencontacto_fondo {
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://blog.uber-cdn.com/cdn-cgi/image/width=2160,quality=80,onerror=redirect,format=auto/wp-content/uploads/2019/01/5-lugares-tur%C3%ADsticos-cerca-de-San-Salvador-perfectos-para-un-d%C3%ADa-de-escape.png')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+.imagenpromo_fondo  {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://503local.com/wp-content/uploads/2022/10/Centro-historico-1.jpg')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+.imagensitio1_fondo {
+  background: url('https://elsalvador.travel/system/wp-content/uploads/2024/03/volcan-conchagua01.png')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+.imagensitio2_fondo{
+  background: url('https://elsalvador.travel/system/wp-content/uploads/2022/01/Cerro-Verde-Drone-CAPRES-4.jpg')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+.imagensitio3_fondo{
+  background: url('https://elsalvador.travel/system/wp-content/uploads/2021/04/10012021-El-Imposible-APPEX-5.jpg')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+.imagensitio4_fondo{
+  background: url('https://elsalvador.travel/system/wp-content/uploads/2021/04/10012021-El-Imposible-APPEX-5.jpg')
+      no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+  
+
+/* Separar bien el main */
+main {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Botón CTA */
+.boton-cta {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.boton-cta:hover {
+    background-color: #0056b3;
+}
+
+/* Tours destacados */
+.destacados {
+    margin-top: 50px;
+}
+
+.destacados .tour {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-size: 14px;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.redes-sociales a:hover {
+    color: #007BFF;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #007BFF;
+}
+
+.contacto-rapido {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    color: #333;
+    background-color: #ffffff;
+    padding-top: 54.19px;
+    font-size: 1.2em;
+  }
+  
+  
+  
+  /* --- NAVBAR --- */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 0.3rem 0;
+  }
+  
+  .navbar .navbar-brand,
+  .navbar .navbar-nav .nav-link {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+  
+  .navbar-brand img {
+    height: 35px;
+  }
+  
+  .navbar .nav-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .seleccion-nav {
+    color: #00377B;
+    font-weight: bold;
+  }
+  
+  /*--- TEXTOS SITIOS ---*/
+  .encabezadositios {
+    color: #00377B;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    margin-block: 1em;
+    font-weight: uppercase;
+  }
+  
+  #actividad-lista {
+    list-style-type: none;
+  }
+  
+  .azul-personalizado {
+    text-transform: uppercase;
+    color: #00377B;
+    font-weight: bold;
+    margin-block: 1em;
+  }
+  
+  /* --- CARD CONTACTOS --- */
+  .contactos-card {
+    transition: transform 0.3s;
+  }
+  
+  .contactos-card:hover {
+    transform: scale(1.09);
+  }
+  
+  /*--- CARD INICIO ---*/
+  .descatacado-card {
+    transition: transform 0.3s;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .descatacado-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .descatacado-card {
+    min-height: auto; /* Altura común para todas las tarjetas de destino */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .descatacado-card .card-img-top {
+    height: 200px; /* Altura común para las imágenes */
+    object-fit: cover; /* Ajuste común para las imágenes */
+  }
+  
+  .descatacado-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .descatacado-card .card-text {
+    margin-bottom: 0;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* --- CARD DESTINOS --- */
+  .destino-card {
+    transition: transform 0.3s;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .destino-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .destino-card {
+    min-height: auto; /* Altura común para todas las tarjetas de destino */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .destino-card .card-img-top {
+    height: 200px; /* Altura común para las imágenes */
+    object-fit: cover; /* Ajuste común para las imágenes */
+  }
+  
+  .destino-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .destino-card .card-text {
+    margin-bottom: 0;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* --- descatacado-cardES --- */
+  .promocion-card {
+    transition: transform 0.3s;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .promocion-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .promocion-card {
+    min-height: auto; /* Altura común para todas las tarjetas de destino */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .promocion-card .card-img-top {
+    height: 200px; /* Altura común para las imágenes */
+    object-fit: cover; /* Ajuste común para las imágenes */
+  }
+  
+  .promocion-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .promocion-card .card-text {
+    margin-bottom: 0;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  /* --- FORMULARIO Y CAMPOS CONTACTOS --- */
+  main {
+    padding: 40px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campo-formulario {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  textarea {
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  
+  
+  /* --- BOTÓNES CONTACOS--- */
+  .btn-formulario {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* --- OTROS --- */
+  .linea-separadora {
+    border-bottom: 1px solid #eee;
+    margin: 5px 0 10px;
+  }
+  
+  /*---CARROUSEL SITIOS---*/
+  .d-item{
+    height: 400px;
+  }
+  
+  .d-img{
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+  
+  /*---ICONOS---*/
+  .container-iconos {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+  }
+  
+  .container-iconos img {
+    width: 60px;
+    height: 60px;
+    margin-block: 10px;
+  }
+
+  .carousel-caption-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    text-align: center;
+    z-index: 10;
+    padding: 20px 30px;
+    border-radius: 10px;
+  }
+
+  /* Estilos para el carrusel de reseñas */
+.review-section-title {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+.review-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+.review-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid #34613f;
+  object-fit: cover;
+}
+.quote-icon {
+  font-size: 2rem;
+  color: #34613f;
+}
+.nav-btn {
+  background-color: #34613f;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.nav-btn:hover {
+  background-color: #34613f;
+}
+.social-icons i {
+  font-size: 1.1rem;
+  margin: 0 8px;
+  color: #333;
+}
+
+.review-card .flex-grow-1 {
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+}
+
+.perfil-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #198754; /* Verde Bootstrap */
+}
+
+.video-contenedor {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.video-adaptable-recortado {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* La altura del video se ajusta proporcionalmente */
+  object-fit: cover;
+}
+
+/* Media query para pantallas más grandes (ejemplo: 1200px de ancho mínimo) */
+@media (min-width: 1200px) {
+  .video-contenedor {
+    max-height: 400px; /* Ejemplo de altura máxima en píxeles */
+    /* Eliminamos height: auto; de aquí */
+  }
+}
+
+/* Media query para pantallas aún más grandes (ejemplo: 1600px de ancho mínimo) */
+@media (min-width: 1600px) {
+  .video-contenedor {
+    max-height: 500px; /* Otro ajuste si es necesario */
+    /* Eliminamos height: auto; de aquí */
+  }
+}

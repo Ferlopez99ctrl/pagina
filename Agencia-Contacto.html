@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto - Aventura Sin Límites</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+    <meta name="description" content="Descubre las mejores aventuras y excursiones con Aventura Sin Límites. Vive la emoción de viajar sin fronteras.">
+    <meta name="keywords" content="Turismo, Aventuras, Excursiones, Viajes, Naturaleza, Agencia de Turismo">
+    <link rel="icon" href="imagenes/ICONO.ico">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-2">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="imagenes/ICONO.png" alt="LOGO" height="35" class="me-2">
+          Aventura Sin Límites
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="Agencia-Historia.html">Historia</a></li>
+            <li class="nav-item"><a class="nav-link" href="Agencia-Calendario.html">Calendario</a></li>
+            <li class="nav-item"><a class="nav-link" href="Agencia-Experiencias.html">Experiencias</a></li>
+            <li class="nav-item"><a class="nav-link" href="Agencia-Promociones.html">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" href="Agencia-Sitios.html">Sitios Turísticos</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="Agencia-Contacto.html"><span class="seleccion-nav">Contacto</span></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="imagencontacto_fondo d-flex flex-column justify-content-center align-items-center text-white text-center">
+    <h1 class="fw-bolder text-uppercase text-center">CONTÁCTANOS</h1>
+  </div>
+
+  <h1 class="azul-personalizado text-center">Nuestros canales de comunicación</h1>
+  <p class="mt-2 text-center">Para cualquier consulta o comentarios sobre: <br>
+    Paquetes turísticos, renta de casas, ranchos de playa y transporte empresarial.</p></p>
+
+  <section class="container mt-5">
+    <div class="row justify-content-center text-center gap-4">
+      <div class="card contactos-card col-md-6 col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Teléfono</h5>
+          <a href="tel:+50376033593" target="_blank" aria-label="Llamar al número telefónico"><i class="fa-solid fa-headset display-3"></i></a>
+        </div>
+      </div>
+      <div class="card contactos-card col-md-6 col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Whatsapp</h5>
+          <a href="https://api.whatsapp.com/send?phone=76033593" target="_blank" aria-label="Enviar mensaje por WhatsApp"><i class="fa-brands fa-whatsapp display-3"></i></a>
+        </div>
+      </div>
+      <div class="card contactos-card col-md-6 col-lg-3">
+        <div class="card-body">
+          <h5 class="card-title">Correo</h5>
+          <a href="mailto:aventurasinlimites@gmail.com" aria-label="Enviar un correo electrónico"><i class="fa-regular fa-envelope display-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="mt-5 text-center text-uppercase">Formulario de reserva y Contacto</h2>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <div class="p-4 shadow rounded bg-white">
+          <form action="procesar_formulario.php" method="post">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" required>
+            </div>
+            <div class="mb-3">
+              <label for="apellido" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="apellido" name="apellido" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Teléfono:</label>
+              <input type="tel" class="form-control" id="telefono" name="telefono">
+            </div>
+            <div class="mb-3">
+              <label for="pais" class="form-label">País:</label>
+              <input type="text" class="form-control" id="pais" name="pais">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-formulario w-100">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-5 mt-4 mt-lg-0">
+        <div class="p-4 shadow rounded bg-white h-100">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="100%" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+  <footer>
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <h5 class="fw-bolder text-uppercase azul-personalizado">Aventura Sin Límites</h5>
+                <p class="text-muted">Tu puerta de entrada a experiencias inolvidables en El Salvador. Descubre la naturaleza, la cultura y la aventura con nosotros.</p>
+            </div>
+            <div class="col-lg-4 mb-3 mb-lg-0">
+                <h5 class="fw-bolder text-uppercase azul-personalizado">Contacto</h5>
+                <ul class="list-unstyled text-muted">
+                    <li><i class="fas fa-phone me-2"></i> Teléfono: <a href="tel:+50376033593" class="text-muted text-decoration-none">+503 7603-3593</a></li>
+                    <li><i class="fab fa-whatsapp me-2"></i> WhatsApp: <a href="https://api.whatsapp.com/send?phone=50376033593" class="text-muted text-decoration-none">+503 7603-3593</a></li>
+                    <li><i class="far fa-envelope me-2"></i> Correo: <a href="mailto:info@aventurasinlimites.com" class="text-muted text-decoration-none">info@aventurasinlimites.com</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5 class="fw-bolder text-uppercase azul-personalizado">Síguenos</h5>
+                <div class="align-items-center">
+                    <a href="https://www.facebook.com/" class="btn btn-outline-primary btn-sm me-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/" class="btn btn-outline-info btn-sm me-2"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" class="btn btn-outline-danger btn-sm me-2"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/" class="btn btn-outline-secondary btn-sm"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
